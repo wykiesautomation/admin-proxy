@@ -1,0 +1,19 @@
+{
+  "name": "payfast-proxy-node",
+  "version": "1.2.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.12",
+    "pdfkit": "^0.14.0"
+  }
+}
