@@ -1,0 +1,13 @@
+
+name = "wykies-api-proxy"
+main = "worker.js"
+compatibility_date = "2024-10-01"
+
+[vars]
+# Paste your *current* Apps Script Web App Deployment ID (string). Example: AKfycbx.../exec
+APPS_SCRIPT_DEPLOYMENT_ID = "REPLACE_WITH_DEPLOYMENT_ID"
+
+# Optional: if you prefer defining the zone routes here rather than in the dashboard:
+# [routes]
+# pattern = "wykiesautomation.co.za/api*"
+# zone_name = "wykiesautomation.co.za"
